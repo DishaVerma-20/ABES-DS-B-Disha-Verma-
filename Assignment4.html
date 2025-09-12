@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <style>
+    /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff; /* Flipkart blue */
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.search-bar {
+    background-color: #d6d6d6;
+  flex: 1;
+  display: flex;
+  margin: 0 20px;
+}
+
+.search-bar input {
+    background-color: #d6d6d6;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 2px 0 0 2px;
+}
+
+.search-bar button {
+  background: #d6d6d6;
+  border: none;
+  padding: 0px 12px;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+}
+
+/* Categories Row */
+.categories {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.categories div {
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.categories div:hover {
+  color: #2874f0;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Top Navbar -->
+  <div class="navbar">
+    <div class="logo">
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="Flipkart Logo">
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products, brands and more">
+      <button>🔍</button>
+    </div>
+    <div class="nav-links">
+      <a href="#">Login</a>
+      <a href="#">Cart 🛒</a>
+      <a href="#">Become a Seller</a>
+    </div>
+  </div>
+
+  <!-- Categories Row -->
+  <div class="categories">
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e00302d428f5c7be.png?q=100" alt="Minutes">
+        <p>Minutes</p>
+    </div>
+    <div>
+        <img src="	https://rukminim2.flixcart.com/fk-p-flap/64/64/image/5f2ee7f883cdb774.png?q=100" alt="Mobiles & Tablets">
+        <p>Mobiles & Tablets</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/ff559cb9d803d424.png?q=100" alt="Fashion">
+        <p>Fashion</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/af646c36d74c4be9.png?q=100" alt="Electronics">
+        <p>Electronics</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/1788f177649e6991.png?q=100" alt="Home & Furniture">
+        <p>Home & Furniture</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e90944802d996756.jpg?q=100" alt="TV & Appliances">
+        <p>TV & Appliances</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/3c647c2e0d937dc5.png?q=100" alt="Flight Bookings">
+        <p>Flight Bookings</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/b3020c99672953b9.png?q=100" alt="Beauty">
+        <p>Beauty</p>
+    </div>
+    <div>
+        <img src="https://rukminim2.flixcart.com/fk-p-flap/64/64/image/e730a834ad950bae.png?q=100" alt="Grocery">
+        <p>Grocery</p>
+    </div>
+  </div>
+
+</body>
+</html>
