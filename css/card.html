@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+      margin: 0;
+      padding: 30px;
+    }
+
+    .card-box {
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      padding: 20px;
+      text-align: center;
+      width: 220px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 12px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.05);
+    }
+
+    .card p {
+      margin: 12px 0;
+      font-size: 1.1em;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .price {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #e63946;
+    }
+
+    .btn-container {
+      margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .buy-btn {
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      color: #fff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 0.9em;
+      font-weight: 500;
+      transition: 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background: linear-gradient(135deg, #ff4b2b, #ff416c);
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+  <div class="card-box">
+    <div class="card">
+      <img src="images.jpg" alt="Pizza">
+      <p>🍕 Pizza</p>
+      <p class="price">$19.99</p>
+      <div class="btn-container">
+        <button class="buy-btn">Buy</button>
+        <button class="buy-btn">Order</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="coke.jpeg" alt="Coke">
+      <p>🥤 Coke</p>
+      <p class="price">$29.99</p>
+      <div class="btn-container">
+        <button class="buy-btn">Buy</button>
+        <button class="buy-btn">Order</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="burger.jpg" alt="Burger">
+      <p>🍔 Burger</p>
+      <p class="price">$39.99</p>
+      <div class="btn-container">
+        <button class="buy-btn">Buy</button>
+        <button class="buy-btn">Order</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
