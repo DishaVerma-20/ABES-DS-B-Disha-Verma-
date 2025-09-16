@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+    <style>
+        #adi{
+            border: 5px solid black;
+            height: 300px;
+            width: 300px;
+        }
+    </style>
 </head>
 <body>
+    <div id="adi">
+        <button onclick="abes()">click</button>
+        <p id="aaa"></p>
+    </div>
     <script>
+        // function abes(){
+        //     document.write("Python program");
+        // }
+        // abes();
+
         function abes(){
-            document.write("Python program");
+            document.getElementById("aaa").innerHTML=" <h1> Hello!";
         }
-        abes();
     </script>
 </body>
 </html>
