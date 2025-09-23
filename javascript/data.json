@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Disha Verma",
+    "class": "B-Tech",
+    "branch": "IT",
+    "rollNo": 101
+  },
+  {
+    "name": "Riya Sharma",
+    "class": "B-Tech",
+    "branch": "CSE",
+    "rollNo": 102
+  },
+  {
+    "name": "Aman Gupta",
+    "class": "B-Tech",
+    "branch": "ECE",
+    "rollNo": 103
+  },
+  {
+    "name":"Diya Jaiswal",
+    "class":"B-Tech",
+    "branch":"CSE",
+    "rollNo": 104
+  },
+    {
+    "name":"Sparsh",
+    "class":"B-Tech",
+    "branch":"CSE",
+    "rollNo": 105
+  }
+]
