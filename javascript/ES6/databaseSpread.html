@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const book1 ={
+            bookname:"Mathematics",
+            bookauthor:"RD Sharma",
+            totalpages:345
+        }
+        const book2 ={
+            bookname: "Science",
+            bookauthor:"HC Verma",
+            totalpages:456
+        }
+        const book3 ={
+            bookname: "Hindi",
+            bookauthor: "Ram Nath",
+            totalpages: 567
+        }
+        const book4={
+            bookname:"General Knowledge",
+            bookauthor:"Disha Verma",
+            totalpages: 80
+        }
+        const book5={
+            bookname:"Computer Science",
+            bookauthor:"Sumita Arora",
+            totalpages: 999
+        }
+        const library={...book1,...book2,...book3,...book4,...book5};
+        document.write(library);
+    </script>
+</body>
+</html>
